@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.Adzhievrsh.Sprint1.Task2.V6.Lib;
+using Tyuiu.Adzhievrsh.Sprint1.Task3.V6.Lib;
+using Tyuiu.Adzhievrsh.Sprint1.Task3.V6.Lib;
 
-namespace Tyuiu.Adzhievrsh.Sprint1.Task2.V6
+namespace Tyuiu.Adzhievrsh.Sprint1.Task3.V6
 {
     internal class Program
     {
@@ -18,7 +19,7 @@ namespace Tyuiu.Adzhievrsh.Sprint1.Task2.V6
             Console.WriteLine("************************************************************************");
             Console.WriteLine("* Спринт №1                                                            *");
             Console.WriteLine("* Тема: работа на C#                                                   *");
-            Console.WriteLine("* Задание #2                                                           *");
+            Console.WriteLine("* Задание #3                                                           *");
             Console.WriteLine("* Вариант #6                                                           *");
             Console.WriteLine("* Выполнил: Аджиев Рахман Шахирович | ИИП6-26-1                        *");
             Console.WriteLine("************************************************************************");
@@ -34,19 +35,19 @@ namespace Tyuiu.Adzhievrsh.Sprint1.Task2.V6
             double distance = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("* Расход бензина (л на 100 км): ");
-            double fuelConsumption = Convert.ToDouble(Console.ReadLine());
+            double gasFlow = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("* Цена литра бензина (руб.): ");
-            double fuelPrice = Convert.ToDouble(Console.ReadLine());
+            double gasPrice = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
             Console.WriteLine("************************************************************************");
 
-            double result = ds.Calculate(distance, fuelConsumption, fuelPrice);
+            double result = ds.TravelCost(distance, gasFlow, gasPrice);
 
-            Console.WriteLine("* Поездка на дачу и обратно обойдется в " +
-                result.ToString("F3") + " руб.");
+            Console.WriteLine("* Поездка на дачу и обратно обойдется в "
+                + result.ToString("F3") + " руб.");
 
             Console.WriteLine("************************************************************************");
             Console.ReadLine();
