@@ -41,8 +41,19 @@ namespace Tyuiu.Adzhievrsh.Sprint1.Task4.V19.Test
         {
             DataService ds = new DataService();
 
-            Assert.ThrowsException<System.ArgumentException>(
-                () => ds.Calculate(2, 5));
+            bool exceptionThrown = false;
+
+            try
+            {
+                ds.Calculate(2, 5);
+            }
+            catch (ArgumentException)
+            {
+                exceptionThrown = true;
+            }
+
+            Assert.IsTrue(exceptionThrown,
+                "При x = 2 должно возникать исключение.");
         }
     }
 }
