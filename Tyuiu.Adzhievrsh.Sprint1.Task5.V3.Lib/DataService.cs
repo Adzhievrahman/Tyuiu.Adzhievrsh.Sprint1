@@ -15,5 +15,5 @@ namespace Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib
 
             return (k / 100) % 10;
         }
-}
+    }
 }
