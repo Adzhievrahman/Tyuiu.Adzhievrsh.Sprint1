@@ -1,5 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint1;
-using System;
+﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib
 {
@@ -7,12 +7,6 @@ namespace Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib
     {
         public int Calculate(int k)
         {
-            if (k <= 0)
-            {
-                throw new ArgumentException(
-                    "Число должно быть положительным.");
-            }
-
             return (k / 100) % 10;
         }
     }
