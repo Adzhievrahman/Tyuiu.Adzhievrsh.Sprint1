@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib;
 
 namespace Tyuiu.Adzhievrsh.Sprint1.Task5.V3
@@ -8,40 +7,22 @@ namespace Tyuiu.Adzhievrsh.Sprint1.Task5.V3
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
+            Console.Title = "Спринт #1 | Task #5 | Вариант 3";
 
-            Console.Title =
-                "Спринт #1 | Выполнил: Аджиев Р.Ш. | ИИП6-26-1";
-
-            Console.WriteLine(
-                "***************************************************************************");
-            Console.WriteLine(
-                "* Спринт #1                                                               *");
-            Console.WriteLine(
-                "* Тема: Работа с целыми числами                                           *");
-            Console.WriteLine(
-                "* Задание #3                                                              *");
-            Console.WriteLine(
-                "* Вариант #3                                                              *");
-            Console.WriteLine(
-                "* Выполнил: Аджиев Р.Ш. | ИИП6-26-1                                      *");
-            Console.WriteLine(
-                "***************************************************************************");
+            Console.WriteLine("****************************************************");
+            Console.WriteLine("*  Спринт #1                                       *");
+            Console.WriteLine("*  Task #5                                         *");
+            Console.WriteLine("*  Выполнил: Аджиев Р.Ш. | ИИП6-26-1               *");
+            Console.WriteLine("****************************************************");
             Console.WriteLine();
 
             Console.Write("Введите положительное целое число k: ");
+            int k = Convert.ToInt32(Console.ReadLine());
 
-            if (int.TryParse(Console.ReadLine(), out int k) && k > 0)
-            {
-                int h = ds.Calculate(k);
-                Console.WriteLine("Третья цифра с конца h = " + h);
-            }
-            else
-            {
-                Console.WriteLine(
-                    "Ошибка! Введите положительное целое число.");
-            }
+            DataService service = new DataService();
+            int h = service.Calculate(k);
 
+            Console.WriteLine($"Третья цифра с конца h = {h}");
             Console.ReadKey();
         }
     }
