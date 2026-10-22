@@ -25,9 +25,9 @@
     <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task4.V19/Tyuiu.Adzhievrsh.Sprint1.Task4.V19.csproj" Id="73f47ee4-9b3f-4141-a136-43493eab9a88" />
   </Folder>
   <Folder Name="/Task5/">
-    <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib/Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib.csproj" Id="3e87b5ba-f489-4f97-b2aa-0e2656f402eb" />
-    <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Test/Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Test.csproj" Id="2f27e1c2-4c8c-4cb7-8376-eba6a6c7230f" />
-    <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task5.V3/Tyuiu.Adzhievrsh.Sprint1.Task5.V3.csproj" Id="2b004b8b-73ff-4506-8425-b5f5ee031b30" />
+    <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib/Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Lib.csproj" Id="aec27ec1-aea7-4d1e-aa01-bc437e13d6a8" />
+    <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Test/Tyuiu.Adzhievrsh.Sprint1.Task5.V3.Test.csproj" Id="d74923e1-320b-4a7e-ad35-3b85a899ff4f" />
+    <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task5.V3/Tyuiu.Adzhievrsh.Sprint1.Task5.V3.csproj" Id="869e5bd0-5d58-4ba7-950d-7b0e8528b814" />
   </Folder>
   <Folder Name="/Task6/">
     <Project Path="Tyuiu.Adzhievrsh.Sprint1.Task6.V16.Lib/Tyuiu.Adzhievrsh.Sprint1.Task6.V16.Lib.csproj" Id="0de4678f-8817-4b48-8c46-13054e541c49" />
